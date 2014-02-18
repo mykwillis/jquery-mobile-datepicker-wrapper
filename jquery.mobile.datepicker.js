@@ -57,7 +57,7 @@
           var self = this;
             setTimeout( function(){
                 $(element)
-                  .data("mobileDate").addMobileStyle();
+                  .date( "addMobileStyle" );
             },0);
         },// Define a callback function when the month or year is changed
 		numberOfMonths: 1, // Number of months to show at a time
